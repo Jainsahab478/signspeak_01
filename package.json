@@ -1,0 +1,24 @@
+{
+    "name": "sign-language-translator",
+    "version": "1.0.0",
+    "description": "Web application that translates sign language gestures into text and voice messages in multiple languages",
+    "main": "index.html",
+    "scripts": {
+        "start": "python -m http.server 8000",
+        "dev": "python -m http.server 8000"
+    },
+    "keywords": [
+        "sign-language",
+        "computer-vision",
+        "accessibility",
+        "machine-learning",
+        "text-to-speech"
+    ],
+    "author": "AI Assistant",
+    "license": "MIT",
+    "dependencies": {
+        "@mediapipe/hands": "^0.4.1646424915",
+        "@mediapipe/camera_utils": "^0.3.1640029074",
+        "@mediapipe/drawing_utils": "^0.3.1620248257"
+    }
+}
